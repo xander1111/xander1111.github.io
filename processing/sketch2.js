@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
     //color
-    let c = color(mouseX, mouseY, 0);
+    let c = color(mouseX, mouseY, mouseX + mouseY);
 
 
     //body
